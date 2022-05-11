@@ -9,6 +9,7 @@ header {
 }
 
 img {
+	margin-bottom: 20px;
 }
 
 #titulo {
@@ -23,8 +24,7 @@ img {
 
 table {
 	border-collapse: collapse;
-	margin-bottom: 20px;
-	margin: auto;
+	margin-bottom: 30px;
 }
 
 td, th, tr {
@@ -32,14 +32,26 @@ td, th, tr {
 	padding: 5px;
 }
 
-.lado-esquerdo {
-	border: 1px solid black;
+aside {
 	display: inline-block;
 }
 
-.lado-direito {
-	border: 1px solid black;
+
+.movimentar {
 	display: inline-block;
+}
+
+.lado-esquerdo {
+	display: inline-block;
+	border: 1px solid black;
+	width: 30%;
+	}
+
+.lado-direito {
+	display: inline-block;
+	border: 1px solid black;
+	width: 30%;
+	float: right;
 }
 
 #rodape {
@@ -48,4 +60,8 @@ td, th, tr {
 
 #link-externo {
 	text-align: center;
+}
+
+footer {
+	margin-top: 30px;
 }
