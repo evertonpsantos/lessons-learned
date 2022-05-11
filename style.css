@@ -4,12 +4,15 @@ body {
 }
 
 header {
-	position: sticky;
+	position: fixed;
 	top: 0;
 }
 
 img {
 	margin-bottom: 20px;
+	margin-left: 650px;
+	border-radius: 20%;
+	border: 3px solid darkolivegreen;
 }
 
 #titulo {
@@ -42,15 +45,16 @@ aside {
 }
 
 .lado-esquerdo {
-	display: inline-block;
 	border: 1px solid black;
-	width: 30%;
-	}
+	position: absolute;
+	width: 40%;
+	float: left;
+}
 
 .lado-direito {
-	display: inline-block;
+	position: absolute;
 	border: 1px solid black;
-	width: 30%;
+	width: 40%;
 	float: right;
 }
 
@@ -60,6 +64,7 @@ aside {
 
 #link-externo {
 	text-align: center;
+	margin-top: 50px;
 }
 
 footer {
