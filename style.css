@@ -4,8 +4,9 @@ body {
 }
 
 header {
-	position: fixed;
+	position: sticky;
 	top: 0;
+	text-align: center;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 
 table {
 	border-collapse: collapse;
-	margin-bottom: 30px;
+	margin: auto;
 }
 
 td, th, tr {
@@ -35,27 +36,26 @@ td, th, tr {
 	padding: 5px;
 }
 
-aside {
-	display: inline-block;
-}
-
-
-.movimentar {
-	display: inline-block;
+#dois-artigos {
+	position: relative;
+	margin-top: 10px;
 }
 
 .lado-esquerdo {
 	border: 1px solid black;
-	position: absolute;
 	width: 40%;
-	float: left;
+	display: inline-block;
 }
 
 .lado-direito {
-	position: absolute;
 	border: 1px solid black;
 	width: 40%;
-	float: right;
+	position: absolute;
+	display: inline-block;
+}
+
+aside {
+	display: inline-block;
 }
 
 #rodape {
@@ -64,7 +64,7 @@ aside {
 
 #link-externo {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 footer {
